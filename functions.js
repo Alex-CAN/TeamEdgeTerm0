@@ -7,23 +7,70 @@
 	Use functions to simplify your code and decrease the amount of work you're doing. 
 
 	Any time you start thinking 'this is tedious', you can probably write a function for that task.
-
   -------------------------------------------- */
 
+//Function Choose Random student
+
+
 const READLINE = require("readline-sync");
+
+function chooser(){
+	var engineers = ["Durand","Gideon","Miriam","Jasmine","Thanhbinh","Nancy","Emmanuel","Shaylee","Angel","JT","Tina","Khilacz","Olivia"];
+	randNum = Math.floor(Math.random() * engineers.length);// create variable called randNum that holds a random number from 0 -12
+	var chosenOne = engineers[randNum]; 
+	console.log(chosenOne);//print the chosenOne
+
+	
+}
+// console.log(chooser());
+chooser();
+
+// gets usesr input asks user if they want 1 or 3 students stored in variable num
+num = READLINE.question("Do you want 1 or 3 students to be stored in variable num")
+
+function chooseStudents(num){
+	if(num == 1){
+		chooser();
+	} else{
+		chooser();
+		chooser();
+		chooser();
+
+	}
+
+}
+
+chooseStudents();
+
+
 
 /* -------------------------------------------- 
   Challenge 1: Let's try to write some basic functions.
 -------------------------------------------- */
 
- console.log("------------------- Challenge 1 -------------------")
+ console.log("------------------- Challenge 1 -------------------");
 
 // **** Challenge 1: Problem 1 ****
 // Write a function called printMessage() that prints any message you want.
 
+function printMessage(){
+	console.log("any message you want");
+}
+
+printMessage();
+
 
 // **** Challenge 1: Problem 2 ****
 // Write a function called printFiveMessages() that calls printMessage() five times.
+
+function printFiveMessages(){
+	printMessage();
+	printMessage();
+	printMessage();
+	printMessage();
+	printMessage();
+
+}
 
 
 // **** Challenge 1: Problem 3 ****

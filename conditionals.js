@@ -16,11 +16,15 @@ console.log("------------------- Challenge 1 -------------------")
     Prompt the user to enter their age.
     Write conditional statements that print out whether you can drive in your city. */
 
+let msg = "";
+msg = READLINE.question("age?")
+console.log("my age is "+ msg)
 
-
-
-
-
+if (msg >= 16){
+    console.log("you can drive!!! skirt skirt")
+}else {
+    console.log("not old enough")
+}
 
 
 
@@ -60,8 +64,9 @@ console.log("------------------- Challenge 3 -------------------")
    and prints out a weather report based on the current weather:
    Rainy: Bring an umbrella
    Sunny: Wear a hat and sunglasses
-   Snowing: Wear gloves and a scarf */
-
+   Snowing: Wear gloves and a scarf 
+   
+   */
 //Here's a variable to get you started:
 let weather = `rainy`;
 
@@ -141,6 +146,21 @@ console.log("------------------- Challenge 1 -------------------")
 
 
 
+let year = 2020;
 
+if (year%4 == 0){
+    if(year%100 == 0){
+        if(year%400==0){
+            console.log("366days leap year!!!!")
+        }else{
+            console.log("not a leap year")
+        }
+    }else{
+        console.log("LEAP YEAR")
+    }
+
+} else {
+    console.log("not a leap year")
+}
 
 
