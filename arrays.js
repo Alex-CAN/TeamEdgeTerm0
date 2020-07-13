@@ -35,14 +35,14 @@ console.log("names: " + names)
 // **** Challenge 1 : Part 1 **** 
 // Given an array named food, fill the array with 5 strings.
 
-let food = []
+let food = ["nutella", "banana","orange", "avocado", "garlic"]
 console.log("food: " + food)  
 
 
 // **** Challenge 1 : Part 2 **** 
 // Declare an array named numbers with 5 numbers.
 
-
+let numbers = [1,2,3,4,5]
 console.log("numbers: " + numbers)   
 
 
