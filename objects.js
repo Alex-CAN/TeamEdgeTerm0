@@ -32,47 +32,64 @@ let object = {
         this.isEmpty =true
     }
 }
-//working with the object:
-object.length = 12
-object.width = 8
-object.contents = ["thing 1", "thing 2", "thing 3"]
-console.log(`${object.name} is ${object.length}  x ${object.width} `)
-object.contents.push("thing 4")
-console.log(`${object.name} has ${object.contents} `)
-console.log(object)
+
+let smartPhone = {
+    screen: "resolution bla bla",
+    brand: "samsung",
+    camera: 14,
+    isNew: false,
+    isCracked: true,
+    features: [ "front-face cam", "bluetooth"],
+
+    saveData(){
+        console.log("your data was saved")
+    }
+}
+console.log(smartPhone.color)
+smartPhone.color = "black"
+console.log(smartPhone.color)
+
+// //working with the object:
+// object.length = 12
+// object.width = 8
+// object.contents = ["thing 1", "thing 2", "thing 3"]
+// console.log(`${object.name} is ${object.length}  x ${object.width} `)
+// object.contents.push("thing 4")
+// console.log(`${object.name} has ${object.contents} `)
+// console.log(object)
 
  
 
-//-->TODO: Declare a new object and set at least 4 properties to it including: string, boolean, number, array
+// //-->TODO: Declare a new object and set at least 4 properties to it including: string, boolean, number, array
 
-//*********************************  MY OBJECT *************************** */
-
-
+// //*********************************  MY OBJECT *************************** */
 
 
 
 
-//************************************************************************* */
+
+
+// //************************************************************************* */
 
 
 
-console.log("------------------- CHALLENGE 2 : MODIFY   -------------------")
+// console.log("------------------- CHALLENGE 2 : MODIFY   -------------------")
 
-//-->TODO: Log your object you created above
-
-
-//-->TODO: Update the object you just created  by adding new properties and values, including array elements, in this section.
+// //-->TODO: Log your object you created above
 
 
-//-->TODO: Log your object again and observe changes
+// //-->TODO: Update the object you just created  by adding new properties and values, including array elements, in this section.
 
 
-console.log("------------------- CHALLENGE 3 : METHOD   -------------------")
-
-//-->TODO: Add at least two methods (object functions) to your object defined in Challenge 1 and invoke them here.
-//          Make your methods update your variables, or add a random number to an array, etc.
+// //-->TODO: Log your object again and observe changes
 
 
-console.log("------------------- CHALLENGE 4 : LITERALLY   -------------------")
+// console.log("------------------- CHALLENGE 3 : METHOD   -------------------")
 
-//-->TODO: Put it all together using a string literal to tell the story of your object!
+// //-->TODO: Add at least two methods (object functions) to your object defined in Challenge 1 and invoke them here.
+// //          Make your methods update your variables, or add a random number to an array, etc.
+
+
+// console.log("------------------- CHALLENGE 4 : LITERALLY   -------------------")
+
+// //-->TODO: Put it all together using a string literal to tell the story of your object!

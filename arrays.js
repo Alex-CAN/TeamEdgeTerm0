@@ -37,6 +37,7 @@ console.log("names: " + names)
 
 let food = ["nutella", "banana","orange", "avocado", "garlic"]
 console.log("food: " + food)  
+//here
 
 
 // **** Challenge 1 : Part 2 **** 
